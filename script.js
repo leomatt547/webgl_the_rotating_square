@@ -117,7 +117,7 @@ function render()
 {
     gl.clear( gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
-    theta[axis] += 2.0;
+    theta[axis] += 0.5;
     gl.uniform3fv(thetaLoc, theta);
 
 
